@@ -1,9 +1,3 @@
--- Nothing much to say really.
+## About
 
-
--- This project was my first ever website that i had ever built. i used HTML and CSS only.
-
-
--- it was a school project.
-
-
+This project was my first ever website and was built using HTML and CSS for a school assignment.

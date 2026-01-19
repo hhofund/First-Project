@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Order food online from Dune Steakhouse or contact us by phone or email.">
+    <title>Dune Steakhouse - Order Online</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>D U N E</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="order.html" aria-current="page">Order Online</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="order">
+      <h2>Order Online / Contact Us</h2>
+      <p>You can call us, send an email, or use the form below to order food.</p>
+      <div class="contact-info">
+        <p>Phone: <a href="tel:+460700383838">+46 070 038 38 38</a></p>
+        <p>Email: <a href="mailto:orders@dune.com">orders@dune.com</a></p>
+      </div>
+      <form class="contact-form" action="mailto:orders@dune.com" method="POST" enctype="text/plain">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="Name" required>
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="Email" required>
+        <label for="comment">Comments / Special Requests</label>
+        <textarea id="comment" name="Comment" rows="5" placeholder="Any special requests?"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Ebbe Lieberathsgatan 18 A</p>
+    <p>070 038 38 38</p>
+    <p>Email: dune@gmail.com</p>
+  </footer>
+</body>
+</html>
